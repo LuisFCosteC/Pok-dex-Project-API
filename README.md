@@ -6,7 +6,7 @@ This project is a Pokédex application that allows users to look up information 
 
 The project consists of the following main files:
 
-** 1. HTML (`index.html`) **
+### **1. HTML (`index.html`)**
 
 The HTML file defines the structure and content of the web page. It contains:
 
