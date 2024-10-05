@@ -112,7 +112,7 @@ Navigate to the project directory.
 ### **If the search was unsuccessful, it will display the following message “Pokémon not found”.**
 ![image](https://github.com/user-attachments/assets/9671a36f-5ccc-4cde-8b69-ebe8cad31671)
 
-### **Pressing the Update Information button will show a form to perform the update. **
+### **Pressing the Update Information button will show a form to perform the update.**
 ![image](https://github.com/user-attachments/assets/22e26bb0-6b46-4030-a5df-038f35aeb69c)
 
 ### **Enter the information you want to update and then click the Submit Update button to view the change.**
