@@ -97,3 +97,26 @@ Navigate to the project directory.
 
    ````bash
    uvicorn app.main:Pokemon_API --reload
+
+## Presentation of the site
+
+### **Main presentation of the site**
+![image](https://github.com/user-attachments/assets/926648a6-4d91-4d53-8630-68125d246960)
+
+### **Enter the Pokédex number or your name to perform the search**
+![image](https://github.com/user-attachments/assets/bb0fba43-8e42-4687-9c4b-9082b09628b3)
+
+### **If the search was successful, it will show the pokemon information.**
+![image](https://github.com/user-attachments/assets/985ab92e-0061-4de8-a499-97b2e438cd35)
+
+### **If the search was unsuccessful, it will display the following message “Pokémon not found”.**
+![image](https://github.com/user-attachments/assets/9671a36f-5ccc-4cde-8b69-ebe8cad31671)
+
+### **Pressing the Update Information button will show a form to perform the update. **
+![image](https://github.com/user-attachments/assets/22e26bb0-6b46-4030-a5df-038f35aeb69c)
+
+### **Enter the information you want to update and then click the Submit Update button to view the change.**
+![image](https://github.com/user-attachments/assets/54eaba39-8f1e-469b-a1e9-6e665391b27b)
+
+### **After clicking on the Send Update button we will be able to see the updated information.**
+![image](https://github.com/user-attachments/assets/eef36745-aabc-47ce-9b0f-91a7d0b87856)
