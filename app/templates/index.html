@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <!-- Enlace al archivo CSS para estilos -->
+    <link rel="stylesheet" href="/app/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Logo de la aplicación -->
+        <img src="/app/static/img/logo.webp" alt="Logo" class="logo">
+        <!-- Título principal de la aplicación -->
+        <h1 class="title">Search for your Pokémon</h1>
+        <!-- Subtítulo que indica al usuario qué hacer -->
+        <h2 class="subtitle">Enter the Pokédex number or its name</h2>
+        
+        <!-- Campo de entrada para el número de la Pokédex o el nombre del Pokémon -->
+        <input type="text" id="pokemon-input" placeholder="Pokédex Number or Name" />
+        <!-- Botón para buscar el Pokémon -->
+        <button id="search-button">Search</button>
+        
+        <!-- Div que mostrará la información del Pokémon -->
+        <div id="pokemon-info" class="pokemon-info"></div>
+
+        <!-- Botón para actualizar la información, oculto por defecto -->
+        <button id="update-button" style="display: none;">Update Information</button>
+        
+        <!-- Contenedor para los campos de actualización, oculto por defecto -->
+        <div id="update-fields" style="display: none;">
+            <h3>Update Information:</h3>
+            <!-- Campo de entrada para las habilidades del Pokémon -->
+            <label for="abilities">Abilities:</label>
+            <input type="text" id="abilities" placeholder="Enter Abilities" />
+            <!-- Campo de entrada para el tipo del Pokémon -->
+            <label for="types">Type:</label>
+            <input type="text" id="types" placeholder="Enter Type" />
+            <!-- Botón para enviar la actualización de información -->
+            <button id="submit-update">Submit Update</button>
+        </div>
+    </div>
+
+    <!-- Enlace al archivo JavaScript para la funcionalidad -->
+    <script src="/app/static/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('/app/static/img/fondo.jpg'); /* Asegúrate de que esta ruta sea correcta */
+    background-size: cover;
+    background-position: center; /* Centra la imagen */
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    align-items: center; /* Centra el contenido verticalmente */
+    height: 100vh; /* Asegúrate de que el body tenga una altura de vista completa */
+}
+
+.container {
+    width: 40%; /* Ancho del contenedor */
+    margin: 0; /* Sin margen */
+    padding: 20px; /* Espaciado interno */
+    text-align: left; /* Texto alineado a la izquierda */
+    background: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente */
+    border-radius: 10px; /* Bordes redondeados */
+    position: relative; /* Posición relativa */
+    left: 180px; /* Alinea el contenedor a la izquierda */
+}
+
+.logo {
+    display: block;
+    margin: 0 auto 20px; /* Mantiene el logo centrado */
+}
+
+.title {
+    text-align: center; /* Título centrado */
+}
+
+.subtitle {
+    text-align: center; /* Centra el subtítulo */
+    font-size: 18px; /* Tamaño de fuente */
+    margin-top: 10px; /* Espacio superior */
+    margin-bottom: 20px; /* Espacio inferior */
+    color: #ffcc00; /* Color del texto */
+}
+
+input {
+    width: calc(100% - 22px); /* Ancho del input */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 10px; /* Margen inferior */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+button {
+    width: 100%; /* Botón ocupa todo el ancho */
+    padding: 10px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #ffcc00; /* Color de fondo */
+    color: black; /* Color del texto */
+    font-weight: bold; /* Negrita */
+    cursor: pointer; /* Cambia el cursor */
+}
+
+button:hover {
+    background-color: #ffc700; /* Cambia el color al pasar el ratón */
+}
